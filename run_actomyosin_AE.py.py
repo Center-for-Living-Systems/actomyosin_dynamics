@@ -3,9 +3,9 @@
 # 2024.03
 
 import tensorflow as tf
-from utils import actomyosin_data, plot64
-from model.autoencoder_64 import AE, VAE, CVAE
-from train_utils.autoencoder import AETrain, VAETrain, CVAETrain
+from ../utils import actomyosin_data, plot64
+from ../model.autoencoder_64 import AE, VAE, CVAE
+from ../train_utils.autoencoder import AETrain, VAETrain, CVAETrain
 import time
 import argparse
 from datetime import datetime
