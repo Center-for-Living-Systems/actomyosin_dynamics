@@ -1,24 +1,14 @@
-# Auto-Encoders for MNIST: TF 2.0
-Implementations of AE(Auto-Encoder), VAE(Variational AE) and CVAE(Conditional VAE)
-
-## Results
+# Auto-Encoders for actomyosin data
+Implementations of AE(Auto-Encoder), VAE(Variational AE) in 2D and 3D (x-y-time)
 
 ### AE(Auto-Encoder)
 
-```
-python run_main.py --ae_type AE --num_epochs 150 --latent_dim 2
-```
 
-<table>
-<tr>
-<td>Reconsructed Image</td>
-<td><img src='results/AE_reconstruction.png'></td>
-</tr>
-<tr>
-<td>Distribution of z</td>
-<td><img src='results/AE_distribution.png' height=500></td>
-</tr>
-</table>
+### 3D AE(Auto-Encoder)
+
+![image](https://github.com/user-attachments/assets/877df658-53dc-47a6-99d4-30a26b39a611)
+![image](https://github.com/user-attachments/assets/8eb8f9af-f33d-415c-bbfd-bc455430c850)
+
 
 ## References
 [1] https://github.com/hwalsuklee/tensorflow-mnist-VAE  
